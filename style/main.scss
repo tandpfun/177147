@@ -40,7 +40,7 @@ body {
 }
 
 h1.title {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -346,7 +346,7 @@ hr {
                    false true, // 384
                    false true, // 768
                    false true, // 1536
-                   false true; // 3072
+                   false true; // 177147
 
   // Build tile colors
   @while $exponent <= $limit {
@@ -389,11 +389,17 @@ hr {
         @include smaller($mobile-threshold) {
           font-size: 25px;
         }
-      } @else if $power >= 1000 {
+      } @else if $power >= 1000 and $power < 10000 {
         font-size: 35px;
 
         @include smaller($mobile-threshold) {
           font-size: 15px;
+        }
+      } @else if $power >= 10000 {
+        font-size: 25px;
+
+        @include smaller($mobile-threshold) {
+          font-size: 10px;
         }
       }
     }
@@ -401,7 +407,7 @@ hr {
     $exponent: $exponent + 1;
   }
 
-  // Super tiles (above 3072)
+  // Super tiles (above 177147)
   &.tile-super .tile-inner {
     color: $bright-text-color;
     background: mix(#333, $tile-gold-color, 95%);
@@ -491,7 +497,7 @@ hr {
   }
 
   h1.title {
-    font-size: 27px;
+    font-size: 28px;
     margin-top: 15px;
   }
 

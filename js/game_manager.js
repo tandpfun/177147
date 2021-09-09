@@ -20,7 +20,7 @@ GameManager.prototype.restart = function () {
   this.setup();
 };
 
-// Keep playing after winning (allows going over 3072)
+// Keep playing after winning (allows going over 177147)
 GameManager.prototype.keepPlaying = function () {
   this.keepPlaying = true;
   this.actuator.continueGame(); // Clear the game won/lost message
@@ -166,8 +166,8 @@ GameManager.prototype.move = function (direction) {
           // Update the score
           self.score += merged.value;
 
-          // The mighty 3072 tile
-          if (merged.value === 3072) self.won = true;
+          // The mighty 177147 tile
+          if (merged.value === 177147) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
