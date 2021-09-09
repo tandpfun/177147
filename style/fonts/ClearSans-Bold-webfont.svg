@@ -4,7 +4,7 @@
 <metadata></metadata>
 <defs>
 <font id="clear_sansbold" horiz-adv-x="1217" >
-<font-face units-per-em="2048" ascent="1489" descent="-559" />
+<font-face units-per-em="3072" ascent="1489" descent="-559" />
 <missing-glyph horiz-adv-x="492" />
 <glyph unicode="&#xfb01;" horiz-adv-x="1208" d="M35 844v205h133v102q0 195 96.5 282t290.5 87q91 0 193 -25l-50 -225q-72 24 -139 24q-76 0 -104.5 -31.5t-28.5 -111.5v-102h213v-205h-213v-844h-258v844h-133zM790 1335q0 70 32 100.5t109 30.5q78 0 112 -29.5t34 -101.5q0 -73 -36 -102t-110 -29q-82 0 -111.5 34 t-29.5 97zM804 0v1049h258v-1049h-258z" />
 <glyph unicode="&#xfb02;" horiz-adv-x="1208" d="M35 844v205h133v102q0 195 96.5 282t290.5 87q91 0 193 -25l-50 -225q-72 24 -139 24q-76 0 -104.5 -31.5t-28.5 -111.5v-102h213v-205h-213v-844h-258v844h-133zM804 0v1489h258v-1489h-258z" />
